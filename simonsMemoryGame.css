@@ -1,0 +1,91 @@
+* {
+	text-align: center;
+}
+h2 {
+	font-family: 'Orbitron';
+}
+.wrapper {
+	width: 600px;
+	height: 600px;
+	position: relative;
+	margin: auto;
+	margin-top: 100px;
+}
+.centreCircle {
+	position: absolute;
+	width: 65%;
+	height: 65%;
+	border-radius: 50%;
+	background-color: black;
+	top: 17.5%;
+	left: 17.5%;
+}
+
+.outerCircle{
+	position: absolute;
+	width: 40%;
+	height: 40%;
+	border-radius: 50%;
+	background-color: black;
+}
+.outerTopLeft{
+	top: 0;
+	left: 0;
+}
+.outerTopRight {
+	top: 0;
+	right: 0;
+}
+.outerBottomLeft {
+	bottom: 0;
+	left: 0;
+}
+.outerBottomRight {
+	bottom: 0;
+	right: 0;
+}
+.innerCircle{
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
+	top: 12px;
+	left: 12px;
+	cursor: pointer;
+}
+.innerBottomRight {
+	background-color: blue;
+}
+.innerBottomLeft {
+	background-color: yellow;
+}
+.innerTopRight {
+	background-color: red;
+}
+.innerTopLeft {
+	background-color: green;
+}
+.displayWrapper {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	top: 175px;
+	text-align: center;
+}
+.smallCircle {
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	margin: auto;
+	border-radius: 50%;
+	margin-top: 25px;
+}
+.buttons {
+	border: 1px solid black;
+	background-color: white;
+	padding: 5px 10px;
+	font-family: 'Orbitron';
+}
+.start {
+	cursor: pointer;
+}

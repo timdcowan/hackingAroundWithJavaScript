@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="simonsMemoryGame.css">
+		<script type="text/javascript" src="simonsMemoryGame.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+		<meta charset="UTF-8">
+		<title>Assignment 2</title>
+	</head>
+
+	<body>
+		<h2>Simon's Memory Game</h2>
+		<div class="wrapper">
+			<div class="centreCircle">
+				<div class="displayWrapper">
+					<span id="highestScore" class="buttons">00</span>
+					<span id="startButton" onClick="start_stop()" class="buttons start">START</span>
+					<span id="lastScore" class="buttons">00</span>
+					<div id="startStop" class="smallCircle"></div>
+				</div>
+			</div>
+			<div class="outerCircle outerTopLeft">
+				<div id="topLeftCircle" class="innerCircle innerTopLeft" onClick="handleButtonPress('topLeftCircle')"></div>
+			</div>
+			<div class="outerCircle outerTopRight">
+				<div id="topRightCircle" class="innerCircle innerTopRight" onClick="handleButtonPress('topRightCircle')"></div>
+			</div>
+			<div class="outerCircle outerBottomLeft">
+				<div id="bottomLeftCircle" class="innerCircle innerBottomLeft" onClick="handleButtonPress('bottomLeftCircle')"></div>
+			</div>	
+			<div class="outerCircle outerBottomRight">
+				<div id="bottomRightCircle" class="innerCircle innerBottomRight" onClick="handleButtonPress('bottomRightCircle')"></div>
+			</div>	
+		</div>
+	</body>
+	
+</html>
