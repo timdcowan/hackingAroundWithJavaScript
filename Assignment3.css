@@ -1,0 +1,32 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+body
+{
+  width:100%;
+  min-height:100%;
+  padding: 0px;
+  margin: 0px;
+  
+}
+.tableWrapper{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	height: 100%;
+	border: none;
+}
+#myTable{
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width:100%;
+	max-width: 1200px;
+}
+table, th, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+.total{
+	cursor: pointer;
+}
